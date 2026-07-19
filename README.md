@@ -11,6 +11,25 @@
 
 A brisk and frugal Hyprland rice.
 
+## 📸 Screenshots
+
+Take a look at Cumulus in action.
+
+| Desktop | Terminal |
+|:--------:|:--------:|
+| ![Desktop](screenshots/desktop.png) | ![Terminal](screenshots/terminal.png) |
+| **Desktop**<br>The default Cumulus desktop featuring a minimal Waybar, rounded corners, soft transparency, and a calm blue aesthetic. | **Terminal**<br>Kitty configured with rounded transparency, Catppuccin-inspired colors, and a clean development-focused layout. |
+
+| Notification Center | Application Launcher |
+|:-------------------:|:--------------------:|
+| ![SwayNC](screenshots/swaync.png) | ![Rofi](screenshots/rofi.png) |
+| **SwayNC**<br>Elegant notification center with media controls, Do Not Disturb toggle, and screenshot history. | **Rofi Launcher**<br>Minimal application launcher with a spacious grid layout and integrated search. |
+
+| Waybar | AGS Power Menu |
+|:-------:|:--------------:|
+| ![Waybar](screenshots/waybar.png) | ![Power Menu](screenshots/ags-power-menu.png) |
+| **Waybar**<br>A sleek top bar displaying workspaces, system status, media, battery, and network information. | **AGS Power Menu**<br>A clean and distraction-free power menu for locking, logging out, rebooting, and shutting down. |
+
 ## 🚀 Installation
 
 > **Requirements**
@@ -45,3 +64,4 @@ The installer will automatically:
 > Cumulus is intended for **Arch Linux** and its derivatives. Existing configuration files are backed up before installation to:
 >
 > `~/.local/share/cumulus/backups/`
+ 
