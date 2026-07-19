@@ -1,0 +1,175 @@
+/**
+ *
+ * Shared Menu Theme
+ * For Wi-Fi, Bluetooth, Audio, Power, Clipboard, etc.
+ * Designed for adi1090x Type-2 + Gruvbox Material
+ *
+ **/
+
+@import "shared/colors.rasi"
+@import "shared/fonts.rasi"
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons: false;
+    display-drun: "";
+}
+
+/*****----- Window -----*****/
+window {
+    transparency: "real";
+
+    location: northeast;
+    anchor: northeast;
+
+    fullscreen: false;
+
+    width: 500px;
+
+    x-offset: 12px;
+    y-offset: 42px;
+
+    margin: 0px;
+    padding: 0px;
+
+    border: 1px;
+    border-color: @background-alt;
+
+    border-radius: 18px;
+
+    background-color: @background;
+}
+
+/*****----- Main Layout -----*****/
+mainbox {
+    spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    background-color: transparent;
+
+    children: [ "inputbar", "listview" ];
+}
+
+/*****----- Search -----*****/
+inputbar {
+    spacing: 10px;
+
+    margin: 0px;
+    padding: 14px 18px;
+
+    background-color: transparent;
+
+    children: [ "entry" ];
+}
+
+entry {
+    expand: true;
+
+    background-color: transparent;
+
+    text-color: @foreground;
+
+    placeholder-color: @foreground;
+
+    cursor: text;
+}
+
+/*****----- List -----*****/
+listview {
+
+    columns: 1;
+
+    lines: 8;
+
+    dynamic: true;
+
+    cycle: true;
+
+    fixed-height: false;
+
+    scrollbar: false;
+
+    spacing: 6px;
+
+    margin: 0px;
+
+    padding: 0px 10px 10px 10px;
+
+    background-color: transparent;
+
+    text-color: @foreground;
+}
+
+/*****----- Items -----*****/
+element {
+
+    padding: 10px 14px;
+
+    border-radius: 12px;
+
+    background-color: transparent;
+
+    text-color: @foreground;
+
+    cursor: pointer;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected.normal {
+    background-color: @background-alt;
+    text-color: @selected;
+}
+
+element selected.active {
+    background-color: @selected;
+    text-color: @background;
+}
+
+element-text {
+
+    expand: true;
+
+    background-color: transparent;
+
+    text-color: inherit;
+
+    vertical-align: 0.5;
+
+    horizontal-align: 0;
+}
+
+element-icon {
+    enabled: false;
+}
+
+/*****----- Scrollbar -----*****/
+scrollbar {
+    enabled: false;
+}
+
+/*****----- Message -----*****/
+message {
+    background-color: transparent;
+}
+
+textbox {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+/*****----- Error -----*****/
+error-message {
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background-color: @background;
+
+    text-color: @foreground;
+}

@@ -1,0 +1,115 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ed61bd8fa704ea8f758f3dd44502a2fdd4d3f53f740c82e25a6713df1378ac76",
+    "telemetry.devDeviceId": "d2225f2e-cd62-4706-942f-63b2d06ae27d",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/darkstarryy/.config/hyprlock"
+            },
+            {
+                "folderUri": "file:///home/darkstarryy/.config/hypr"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/darkstarryy/.config/hypr": "__default__profile__",
+            "file:///home/darkstarryy/.config/waybar": "__default__profile__",
+            "file:///home/darkstarryy/.config/rofi/type-2": "__default__profile__",
+            "file:///home/darkstarryy/.config/swaync": "__default__profile__",
+            "file:///home/darkstarryy/.config/rofi": "__default__profile__",
+            "file:///home/darkstarryy/.config/wlogout": "__default__profile__",
+            "file:///home/darkstarryy/.config/cumulus": "__default__profile__",
+            "file:///home/darkstarryy/.config/hyprlock": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 186,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/darkstarryy/.config/hypr",
+            "backupPath": "/home/darkstarryy/.config/VSCodium/Backups/ab69d953c349d12fbf2efbeb47e26aaf",
+            "uiState": {
+                "mode": 0,
+                "x": 330,
+                "y": 120,
+                "width": 1260,
+                "height": 882
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 186,
+            "auxiliaryBarWidth": 476,
+            "workspaces": {
+                "674aa3501b2eebc400ca3703192fb3a5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a6c7844351096584d84f98784f56db36": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8492640bace32edefe7e32d035b913e3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ecde68beefb98f899c25c5ec60d8eb58": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "20d1ed31d59b9251ecdb34e854563fba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "51e700c2ff1688d5ef164a93473e894d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d132e599a35c5ed4af789472bcf56f4f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "4e05696541cc93e6b6244b25521c26b4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

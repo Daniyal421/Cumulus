@@ -1,0 +1,7 @@
+{
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "'','Droid Sans Mono', monospace"
+}

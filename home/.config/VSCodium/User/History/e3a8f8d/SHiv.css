@@ -1,0 +1,52 @@
+@import "theme.css";
+
+window {
+    background: transparent;
+}
+
+.power-window {
+    background: transparent;
+}
+
+.power-panel {
+    background: alpha(@bg1, 0.94);
+
+    border: 1px solid alpha(@grey2, 0.25);
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    min-height: 92px;
+}
+
+.power-button {
+    all: unset;
+
+    min-width: 72px;
+    min-height: 72px;
+
+    border-radius: 14px;
+
+    background: @bg2;
+
+    transition: 150ms;
+}
+
+.power-button label {
+    color: @fg;
+
+    font-size: 28px;
+}
+
+.power-button:hover {
+    background: @bg3;
+}
+
+.shutdown:hover {
+    background: @red;
+}
+
+.shutdown:hover label {
+    color: @bg0;
+}

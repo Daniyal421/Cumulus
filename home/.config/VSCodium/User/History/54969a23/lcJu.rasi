@@ -1,0 +1,50 @@
+/**
+ *
+ * Cumulus Wi-Fi
+ *
+ **/
+
+@import "menu.rasi"
+
+configuration {
+    show-icons: false;
+}
+
+/***** Window *****/
+
+window {
+    transparency: "real";
+
+    location: north;
+    anchor: north;
+
+    width: 470px;
+
+    x-offset: 0px;
+    y-offset: 0px;
+
+    border: 1px;
+    border-radius: 0px 0px 16px 16px;
+    border-color: @background-alt;
+
+    background-color: @background;
+}
+
+/***** Search *****/
+
+entry {
+    placeholder: "Search Wi-Fi...";
+}
+
+/***** List *****/
+
+listview {
+    lines: 10;
+}
+
+/***** Selected Network *****/
+
+element selected.normal {
+    background-color: @background-alt;
+    text-color: @selected;
+}

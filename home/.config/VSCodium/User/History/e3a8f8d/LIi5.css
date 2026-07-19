@@ -1,0 +1,68 @@
+@define-color bg0 #1d2021;
+@define-color bg1 #282828;
+@define-color bg2 #32302f;
+@define-color bg3 #3c3836;
+
+@define-color fg #d4be98;
+
+@define-color red #ea6962;
+@define-color orange #e78a4e;
+@define-color yellow #d8a657;
+@define-color green #a9b665;
+@define-color aqua #89b482;
+@define-color blue #7daea3;
+@define-color purple #d3869b;
+
+@define-color grey0 #a89984;
+@define-color grey1 #928374;
+@define-color grey2 #7c6f64;
+window {
+    background: transparent;
+}
+
+.power-window {
+    background: transparent;
+}
+
+.power-panel {
+    background: alpha(@bg1, 0.94);
+
+    border: 1px solid alpha(@grey2, 0.25);
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    min-height: 92px;
+}
+
+.power-button {
+    all: unset;
+
+    min-width: 72px;
+    min-height: 72px;
+
+    border-radius: 14px;
+
+    background: @bg2;
+
+    transition: 150ms;
+}
+
+.power-button label {
+    color: @fg;
+
+    font-size: 28px;
+}
+
+.power-button:hover {
+    background: @bg3;
+}
+
+.shutdown:hover {
+    background: @red;
+}
+
+.shutdown:hover label {
+    color: @bg0;
+}

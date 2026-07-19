@@ -1,0 +1,8 @@
+{
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Propo', 'Droid Sans Mono', monospace",
+    "explorer.confirmDelete": false
+}

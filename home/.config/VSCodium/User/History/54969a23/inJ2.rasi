@@ -1,0 +1,9 @@
+@import "menu.rasi"
+
+configuration {
+    modi: "drun";
+}
+
+entry {
+    placeholder: "Search Wi-Fi…";
+}

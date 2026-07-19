@@ -1,0 +1,75 @@
+@import "/home/darkstarryy/.config/waybar/colors/gruvbox-material.css";
+
+/* ---------- Background ---------- */
+
+window {
+    background: alpha(@bg0, 0.45);
+}
+
+/* ---------- Container ---------- */
+
+#buttons {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    all: unset;
+
+    min-width: 170px;
+    min-height: 170px;
+
+    margin: 18px;
+
+    border-radius: 22px;
+
+    background: alpha(@bg1, 0.90);
+
+    border: 2px solid transparent;
+
+    color: @fg;
+
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 24px;
+    font-weight:700;
+    
+    transition:
+        background-color 180ms ease,
+        border-color 180ms ease,
+        transform 180ms ease;
+}
+
+/* Hover */
+
+button:hover {
+    background: @bg3;
+    border-color: @blue;
+    transform: translateY(-3px);
+}
+
+/* Press */
+
+button:active {
+    background: @bg4;
+}
+
+
+/* ---------- Label Colors ---------- */
+
+#lock:hover {
+    color: @green;
+}
+
+#logout:hover {
+    color: @yellow;
+}
+
+#reboot:hover {
+    color: @aqua;
+}
+
+#shutdown:hover {
+    color: @red;
+}

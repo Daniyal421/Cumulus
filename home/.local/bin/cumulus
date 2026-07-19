@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+case "$1" in
+    power)
+        ags toggle -i cumulus power 2>/dev/null || ags run ~/.config/cumulus
+        ;;
+esac

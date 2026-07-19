@@ -1,0 +1,160 @@
+/**
+ *
+ * Cumulus Shared Menu
+ * Gruvbox Material
+ *
+ **/
+
+@import "shared/colors.rasi"
+@import "shared/fonts.rasi"
+
+configuration {
+    show-icons: false;
+    display-drun: "";
+}
+
+/***** Window *****/
+
+window {
+    transparency: "real";
+
+    location: northeast;
+    anchor: northeast;
+
+    fullscreen: false;
+
+    width: 420px;
+
+    x-offset: 14px;
+    y-offset: 42px;
+
+    border: 1px;
+    border-radius: 16px;
+    border-color: @background-alt;
+
+    background-color: @background;
+}
+
+/***** Layout *****/
+
+mainbox {
+    children: [ "inputbar", "listview" ];
+
+    spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+
+    background-color: transparent;
+}
+
+/***** Search *****/
+
+inputbar {
+
+    padding: 16px;
+
+    background-color: transparent;
+
+    children: [ "entry" ];
+}
+
+entry {
+
+    expand: true;
+
+    placeholder: "";
+
+    text-color: @foreground;
+
+    placeholder-color: @foreground;
+
+    background-color: transparent;
+}
+
+/***** List *****/
+
+listview {
+
+    columns: 1;
+
+    lines: 8;
+
+    cycle: true;
+
+    dynamic: true;
+
+    fixed-height: false;
+
+    scrollbar: false;
+
+    spacing: 6px;
+
+    padding: 0px 12px 12px 12px;
+
+    background-color: transparent;
+}
+
+/***** Items *****/
+
+element {
+
+    padding: 12px 14px;
+
+    border-radius: 10px;
+
+    background-color: transparent;
+
+    text-color: @foreground;
+
+    cursor: pointer;
+}
+
+element normal.normal {
+    background-color: transparent;
+}
+
+element selected.normal {
+
+    background-color: @background-alt;
+
+    text-color: @selected;
+}
+
+element-text {
+
+    expand: true;
+
+    horizontal-align: 0.0;
+
+    vertical-align: 0.5;
+
+    text-color: inherit;
+
+    background-color: transparent;
+}
+
+element-icon {
+    enabled: false;
+}
+
+scrollbar {
+    enabled: false;
+}
+
+textbox {
+
+    text-color: @foreground;
+
+    background-color: transparent;
+}
+
+message {
+    background-color: transparent;
+}
+
+error-message {
+
+    background-color: @background;
+
+    text-color: @foreground;
+}
