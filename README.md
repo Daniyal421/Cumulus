@@ -23,7 +23,7 @@ A brisk and frugal Hyprland rice.
 Clone the repository and run the installer:
 
 ```bash
-git clone https://github.com/<your-username>/Cumulus.git
+git clone https://github.com/Daniyal421/Cumulus.git
 cd Cumulus
 
 chmod +x scripts/*.sh
