@@ -1,0 +1,7 @@
+asusctl
+aylurs-gtk-shell
+pacseek
+supergfxctl
+vscodium-bin
+waybar-cava-git
+zen-browser-bin
