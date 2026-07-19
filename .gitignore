@@ -1,0 +1,27 @@
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+*~
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local cache
+.cache/
+
+# Personal secrets
+*.pem
+*.key
+.env
